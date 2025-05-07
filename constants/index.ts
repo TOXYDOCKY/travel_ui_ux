@@ -17,59 +17,59 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: 'Real maps can be offline',
+    title: 'Los mapas reales pueden estar offline',
     icon: '/map.svg',
     variant: 'green',
     description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+      'Nosotros proveemos una solucion para escaladores y aventureros, puedes usar mapas reales de forma offline y desde cualquier localizacion',
   },
   {
-    title: 'Set an adventure schedule',
+    title: 'Porgrama una aventura',
     icon: '/calendar.svg',
     variant: 'green',
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "Programa una aventura con amigos. En vacaciones es la mejor opcion, asi que basta de discusiones y ven a conocer Rusia",
   },
   {
-    title: 'Technology using augment reality',
+    title: 'Tecnologia usando el argumento de realidad',
     icon: '/tech.svg',
     variant: 'green',
     description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+      'La tecnologia se usa como argumento de realidad. Nosotros contamos con la mejor tecnologia de la montaña y mapas de rusia y asentamientos en la naturaleza',
   },
   {
-    title: 'Many new locations every month',
+    title: 'Muchas localizaciones nuevas cada mes',
     icon: '/location.svg',
     variant: 'orange',
     description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+      'Muchas localizaciones nuevas de naturaleza en Rusia cada mes, ya que contamos con una amplia comunidad internacional de aventureros que les encanta Rusia',
   },
 ];
 
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
-    title: 'Learn More',
+    title: 'Saber Mas',
     links: [
-      'About Hilink',
-      'Press Releases',
-      'Environment',
-      'Jobs',
-      'Privacy Policy',
-      'Contact Us',
+      'Sobre nostros',
+      'Versiones de la app',
+      'Entorno',
+      'Trabajos',
+      'Politica de Privacidad',
+      'Contacto',
     ],
   },
   {
-    title: 'Our Community',
+    title: 'Nuestra comunidad',
     links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
-  title: 'Contact Us',
+  title: 'Contacto',
   links: [
-    { label: 'Admin Officer', value: '123-456-7890' },
-    { label: 'Email Officer', value: 'hilink@akinthil.com' },
+    { label: 'Admin', value: '123-456-7890' },
+    { label: 'Email', value: 'manuelycarlos@manuelycarlos.com' },
   ],
 };
 
