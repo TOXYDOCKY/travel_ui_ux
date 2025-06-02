@@ -4,17 +4,29 @@ import React from 'react'
 
 const FAQS = [
   {
-    question: 'How does the app work?',
-    answer: 'Our app uses GPS technology to track your location and suggest nearby adventures.',
-  },
-  {
-    question: 'Is it free to use?',
-    answer: 'Yes, our core features are completely free to use with optional premium upgrades.',
-  },
-  {
-    question: 'Can I use it offline?',
-    answer: 'Some features work offline, like saved maps and routes, but others require internet access.',
-  },
+  question: '¿Es seguro usar Wi-Fi público mientras viajo?',
+  answer: 'No se recomienda conectarse a redes Wi-Fi públicas sin una VPN, ya que pueden ser utilizadas por ciberdelincuentes para interceptar tus datos.',
+},
+{
+  question: '¿Debo compartir una foto de mi DNI o pasaporte al reservar?',
+  answer: 'Solo debes compartir documentos oficiales con plataformas confiables y seguras; verifica que el sitio tenga HTTPS y buena reputación.',
+},
+{
+  question: '¿Cómo puedo proteger mis datos personales al reservar en línea?',
+  answer: 'Utiliza contraseñas fuertes, activa la autenticación en dos pasos y evita introducir datos en sitios no verificados.',
+},
+{
+  question: '¿Qué hago si sospecho que una web de reservas es falsa?',
+  answer: 'No realices ninguna compra, evita ingresar información personal y repórtala a las autoridades correspondientes o a tu banco si ya diste datos.',
+},
+{
+  question: '¿Es recomendable usar una tarjeta virtual al reservar?',
+  answer: 'Sí, usar tarjetas virtuales reduce el riesgo de fraude porque están diseñadas para uso temporal y tienen límites de gasto.',
+},
+{
+  question: '¿Cómo sé si una app de viajes es segura?',
+  answer: 'Revisa las valoraciones, los permisos que solicita, la política de privacidad y si ha sido verificada por la tienda oficial de aplicaciones.',
+}
 ]
 
 const Features = () => {
