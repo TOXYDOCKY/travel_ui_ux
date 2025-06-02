@@ -53,7 +53,6 @@ const Features = () => {
         newTurn[idx] = !newTurn[idx]
         setTurn!(newTurn)
     }
-  return (
     <div className='flex flex-col items-center justify-center w-full px-2 text-lg pt-4 lg:text-base'>
       <button onClick={toggleAccordion}
        className={`bg-transparent px-5 shadow cursor-pointer w-full h-full ${turn![idx]}`}>
@@ -74,7 +73,7 @@ const Features = () => {
         </div>
       </button>
     </div>
-  )
+  
     </section>
   )
 }
