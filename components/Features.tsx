@@ -1,8 +1,6 @@
 import { FEATURES } from '@/constants'
 import Image from 'next/image'
 import React from 'react'
-import { faqData } from './faqData';
-import { useState } from 'react';
 
 const Features = () => {
   return (
@@ -40,32 +38,6 @@ const Features = () => {
             ))}
           </ul>
         </div>
-      </div>
-       <div className="faq-container">
-        {/* Title */}
-        <div className="title">
-          <img className="star" src={Star} alt="" />
-          <h1>FAQS</h1>
-        </div>
-
-        {/* Faq data */}
-        {faqData.map((item, index) => (
-          <div key={index} className="faq" onClick={() => toggleFaq(index)}>
-            <div className="question">
-              <h2>{item.question}</h2>
-
-              {isClicked === index ? (
-                <img className="icon" src={IconsMinus} alt="" />
-              ) : (
-                <img className="icon" src={IconsPlus} alt="" />
-              )}
-            </div>
-
-            <p className={`content ${isClicked === index ? 'show' : ''}`}>
-              {item.answer}
-            </p>
-          </div>
-        ))}
       </div>
     </section>
   )
