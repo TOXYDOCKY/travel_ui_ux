@@ -69,7 +69,7 @@ const Features = () => {
 
       {/* FAQ Section */}
       <div className="max-container mt-32 px-4 lg:px-0">
-        <h2 className="bold-40 lg:bold-64 text-center mb-16">Frequently Asked Questions</h2>
+        <h2 className="bold-40 lg:bold-64 text-center mb-16">Recomendaciones A Nivel Ciberseguridad para Cuando Viajes</h2>
         <div className="grid gap-10 md:grid-cols-2">
           {FAQS.map((faq, index) => (
             <div key={index} className="bg-white/90 p-6 rounded-2xl shadow-md">
