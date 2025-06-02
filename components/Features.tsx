@@ -1,6 +1,15 @@
 import { FEATURES } from '@/constants'
 import Image from 'next/image'
 import React from 'react'
+import React, { Dispatch, SetStateAction, useEffect, useRef } from 'react'
+
+type Props = {
+    question: string,
+    answer: string,
+    turn: boolean[],
+    setTurn: Dispatch<SetStateAction<boolean[]>>,
+    idx: number
+}
 
 const Features = () => {
   return (
